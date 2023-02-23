@@ -1,0 +1,10 @@
+div {
+    width: 50%;
+    display: flex;
+}
+
+p {
+    float: left;
+    width: 50%;
+    padding: 5%;
+}

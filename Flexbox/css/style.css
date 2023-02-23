@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    
+}
+
+p {
+    width:100px;
+    height: 100px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: 1px solid navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+
+
+}
+.container {
+    height: 300px;
+    display: flex; 
+    justify-content: space-around;
+    border: 1px solid green;
+    align-items: center;
+}
+.container2{
+    height: 300px;
+    display: flex;
+    justify-content:left;
+    border: 1px solid black;
+
+}
+.container2
+p:nth-of-type(2){
+    order: -1;
+}
+.container2
+p:nth-of-type(4){
+    align-self: flex-end;
+}
+.container2
+p:nth-of-type(5){
+    align-self: center;
+
+}
